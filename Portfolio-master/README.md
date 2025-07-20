@@ -1,6 +1,6 @@
 <h2 align="center">
   My Portfolio Website <br/>
-  <a href="https://your-vercel-url.vercel.app/" target="_blank">Live Demo</a>
+  <a href="https://muthukrishnan-portfolio.vercel.app/" target="_blank">Click me for Webpage</a>
 </h2>
 
 <div align="center">
@@ -50,3 +50,7 @@ To run this locally, you’ll need **Node.js** and **Git** installed on your mac
 
 ```bash
 npm install
+
+☕ Inspired By
+This project is inspired by Soumyajit4419's awesome portfolio.
+Special thanks for the open-source support!
