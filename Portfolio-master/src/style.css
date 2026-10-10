@@ -741,3 +741,619 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* ========================================= */
+/* QA PORTFOLIO SPECIFIC STYLES              */
+/* ========================================= */
+
+.text-muted-custom {
+  color: #bca0dc !important;
+}
+
+/* Hero Section Updates */
+.hero-tagline {
+  font-size: 1.15rem;
+  color: #f1e4fb;
+  line-height: 1.6;
+  max-width: 650px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(199, 112, 240, 0.12);
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 0.95rem;
+  color: #c770f0;
+  backdrop-filter: blur(8px);
+}
+
+.hero-badge span {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Current Role Card */
+.current-role-card {
+  background: linear-gradient(135deg, rgba(35, 20, 58, 0.9) 0%, rgba(18, 10, 32, 0.95) 100%);
+  border: 1.5px solid rgba(199, 112, 240, 0.45);
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55);
+  padding: 2.2rem;
+  backdrop-filter: blur(12px);
+  text-align: left;
+}
+
+.badge-role {
+  background: rgba(199, 112, 240, 0.22);
+  color: #c770f0;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.role-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.95rem;
+}
+
+.role-subtitle {
+  color: #bca0dc;
+  font-size: 1.05rem;
+  margin-bottom: 0.85rem;
+}
+
+.role-description {
+  color: #e5daf3;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.btn-outline-purple {
+  border: 1.5px solid #be50f4 !important;
+  color: #ffffff !important;
+  background: rgba(190, 80, 244, 0.15) !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-outline-purple:hover {
+  background: #be50f4 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 15px rgba(190, 80, 244, 0.5) !important;
+  transform: translateY(-2px);
+}
+
+.role-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  color: #f0e6f6;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.skill-pill:hover {
+  background: rgba(199, 112, 240, 0.2);
+  border-color: #be50f4;
+  transform: translateY(-2px);
+}
+
+.pill-icon {
+  color: #cd5ff8;
+  margin-right: 6px;
+}
+
+/* Domain Cards */
+.domain-card {
+  background: rgba(24, 14, 40, 0.8) !important;
+  border: 1.2px solid rgba(180, 110, 225, 0.25) !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: all 0.4s ease !important;
+  text-align: left;
+}
+
+.domain-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 10px 28px rgba(160, 80, 220, 0.35) !important;
+  border-color: rgba(199, 112, 240, 0.6) !important;
+}
+
+.domain-card-img-wrapper {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.domain-card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.domain-card:hover .domain-card-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.domain-card-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.6rem;
+}
+
+.domain-card-text {
+  color: #d8caec;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.domain-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.domain-tag {
+  color: #dca0f8;
+  font-size: 0.82rem;
+  background: rgba(199, 112, 240, 0.15);
+  border: 1px solid rgba(199, 112, 240, 0.3);
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* Philosophy Section */
+.philosophy-box {
+  background: rgba(26, 17, 43, 0.85);
+  border-left: 4px solid #c770f0;
+  border-radius: 10px;
+  padding: 26px 30px;
+  text-align: left;
+}
+
+.philosophy-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.philosophy-text {
+  color: #e5daf3;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Responsibilities Grid in About */
+.responsibility-card {
+  background: rgba(24, 14, 40, 0.85) !important;
+  border: 1px solid rgba(180, 110, 225, 0.25) !important;
+  border-radius: 16px !important;
+  padding: 1.25rem;
+  text-align: left;
+  transition: all 0.3s ease !important;
+}
+
+.responsibility-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(199, 112, 240, 0.6) !important;
+  box-shadow: 0 8px 25px rgba(119, 53, 136, 0.35) !important;
+}
+
+.resp-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.resp-icon-wrap {
+  font-size: 1.7rem;
+  color: #c770f0;
+}
+
+.resp-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.resp-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.resp-examples {
+  background: rgba(15, 8, 25, 0.6);
+  border-radius: 8px;
+  padding: 10px 12px;
+  border-left: 2px solid #be50f4;
+}
+
+/* QA Workflow Timeline */
+.qa-workflow-container {
+  background: rgba(22, 13, 37, 0.85);
+  border: 1px solid rgba(199, 112, 240, 0.3);
+  border-radius: 18px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.qa-workflow-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.workflow-step-box {
+  background: rgba(33, 18, 54, 0.7);
+  border: 1px solid rgba(199, 112, 240, 0.25);
+  border-radius: 14px;
+  padding: 22px 14px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.workflow-step-box:hover {
+  transform: translateY(-4px);
+  border-color: #be50f4;
+  background: rgba(43, 23, 70, 0.8);
+}
+
+.step-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #be50f4 0%, #7b2cbf 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(190, 80, 244, 0.4);
+}
+
+.step-title {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.step-desc {
+  color: #bca0dc;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+/* Data Techniques Grid */
+.data-technique-pill {
+  background: rgba(26, 16, 44, 0.8);
+  border: 1px solid rgba(199, 112, 240, 0.22);
+  border-radius: 14px;
+  padding: 16px 18px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.data-technique-pill:hover {
+  border-color: rgba(199, 112, 240, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(119, 53, 136, 0.25);
+}
+
+.technique-icon {
+  font-size: 1.4rem;
+}
+
+.technique-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.technique-desc {
+  font-size: 0.88rem;
+  color: #bca0dc;
+  line-height: 1.5;
+}
+
+/* Categorized Skill Cards */
+.skill-category-card {
+  background: rgba(24, 14, 40, 0.85) !important;
+  border: 1.2px solid rgba(199, 112, 240, 0.25) !important;
+  border-radius: 16px !important;
+  text-align: left;
+  padding: 8px;
+  transition: all 0.3s ease !important;
+}
+
+.skill-category-card:hover {
+  border-color: rgba(199, 112, 240, 0.5) !important;
+  box-shadow: 0 8px 25px rgba(119, 53, 136, 0.25) !important;
+}
+
+.skill-cat-icon-wrap {
+  font-size: 1.8rem;
+  color: #c770f0;
+}
+
+.skill-cat-title {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.skill-pills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 16px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.skill-tag-pill:hover {
+  transform: scale(1.04);
+}
+
+.qa-badge-primary {
+  background: rgba(199, 112, 240, 0.18);
+  color: #f2d5fc;
+  border: 1px solid rgba(199, 112, 240, 0.4);
+}
+
+.qa-badge-api {
+  background: rgba(80, 150, 240, 0.18);
+  color: #d0e4fc;
+  border: 1px solid rgba(80, 150, 240, 0.4);
+}
+
+.qa-badge-code {
+  background: rgba(240, 180, 80, 0.18);
+  color: #fcf1d0;
+  border: 1px solid rgba(240, 180, 80, 0.4);
+}
+
+.qa-badge-automation {
+  background: rgba(60, 220, 160, 0.18);
+  color: #cbfbe5;
+  border: 1px solid rgba(60, 220, 160, 0.4);
+}
+
+.qa-badge-infra {
+  background: rgba(160, 100, 240, 0.18);
+  color: #e9d5fc;
+  border: 1px solid rgba(160, 100, 240, 0.4);
+}
+
+.tech-icon-label {
+  font-size: 0.85rem;
+  margin-top: 8px;
+  color: #d0c2e0;
+}
+
+/* Toolstack Specific */
+.tool-category-card {
+  background: rgba(24, 14, 40, 0.85) !important;
+  border: 1px solid rgba(199, 112, 240, 0.25) !important;
+  border-radius: 14px !important;
+  text-align: left;
+}
+
+.tool-card-hdr {
+  background: rgba(35, 20, 58, 0.6) !important;
+  border-bottom: 1px solid rgba(199, 112, 240, 0.2) !important;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.tool-name {
+  font-size: 0.98rem;
+}
+
+/* Case Study Featured Component */
+.case-study-featured-card {
+  background: linear-gradient(145deg, rgba(28, 16, 46, 0.95) 0%, rgba(18, 10, 32, 0.98) 100%) !important;
+  border: 2px solid rgba(199, 112, 240, 0.5) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.65) !important;
+  text-align: left;
+}
+
+.case-study-badge {
+  background: rgba(190, 80, 244, 0.25) !important;
+  color: #f1d5fc !important;
+  border: 1px solid #be50f4 !important;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  font-size: 0.82rem;
+}
+
+.case-study-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.problem-alert-box {
+  background: rgba(50, 25, 15, 0.6);
+  border: 1.5px solid rgba(255, 170, 0, 0.5);
+  border-radius: 12px;
+  padding: 18px 22px;
+}
+
+.problem-icon {
+  font-size: 1.6rem;
+  color: #f59e0b;
+}
+
+.status-code-pill {
+  background: #14532d;
+  color: #4ade80;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.problem-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.step-number-badge {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 50%;
+  background: rgba(199, 112, 240, 0.2);
+  border: 1.5px solid #be50f4;
+  color: #c770f0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-item-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.step-item-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.demonstrates-pill {
+  background: rgba(199, 112, 240, 0.16);
+  border: 1px solid rgba(199, 112, 240, 0.4);
+  color: #f0e6f6;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.takeaway-box {
+  background: rgba(45, 25, 75, 0.6);
+  border-left: 3.5px solid #c770f0;
+  border-radius: 8px;
+}
+
+.code-viewer-container {
+  background: #0d0818;
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.code-box {
+  background: #090510 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  color: #7ee787;
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  max-height: 380px;
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+/* Project Card Specifics */
+.project-img-container {
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.88 !important;
+  transition: transform 0.4s ease;
+}
+
+.project-card-view:hover .project-img-container img {
+  transform: scale(1.04);
+}
+
+.project-category-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(18, 9, 32, 0.88);
+  border: 1px solid #be50f4;
+  color: #f1d5fc;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+
+.project-card-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.project-card-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ded0ee !important;
+}
+
+.project-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-tag-pill {
+  font-size: 0.8rem;
+  background: rgba(199, 112, 240, 0.14);
+  color: #dca0f8;
+  border: 1px solid rgba(199, 112, 240, 0.28);
+  padding: 3px 9px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.project-highlights {
+  background: rgba(15, 8, 25, 0.55);
+  border-radius: 8px;
+  padding: 10px 12px;
+  border-left: 2px solid #be50f4;
+}

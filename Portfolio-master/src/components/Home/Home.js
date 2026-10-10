@@ -25,8 +25,14 @@ function Home() {
                 <strong className="main-name"> Muthu Krishnan</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: "30px 50px 20px 50px", textAlign: "left" }}>
                 <Type />
+                <p className="hero-tagline mt-3">
+                  I test beyond the happy path—validating workflows, investigating API behavior, and turning unexpected results into actionable insights.
+                </p>
+                <div className="hero-badge mt-2">
+                  <span>QA Engineer</span> • <span>Manual & API Testing</span> • <span>GraphQL & Hasura</span> • <span>E2E QA</span> • <span>Test Automation</span>
+                </div>
               </div>
             </Col>
 

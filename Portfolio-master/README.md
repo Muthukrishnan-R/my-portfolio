@@ -1,6 +1,6 @@
 <h2 align="center">
-  My Portfolio Website <br/>
-  <a href="https://muthukrishnan-portfolio.vercel.app/" target="_blank">Click me for Webpage</a>
+  Muthu Krishnan | QA Engineer Portfolio <br/>
+  <a href="https://muthukrishnan-portfolio.vercel.app/" target="_blank">View Live Portfolio</a>
 </h2>
 
 <div align="center">
@@ -19,38 +19,43 @@
 
 ---
 
-## TL;DR
+## 👨‍💻 About Me
 
-This is my personal portfolio website showcasing my skills, projects, resume, and contact information — built with **React.js** and deployed using **Vercel**.
+Quality Assurance Engineer with hands-on experience in manual testing, GraphQL API validation (Hasura), end-to-end workflow validation, release testing, and defect investigation across Payment, Assessment, and Scheduling microservices.
+
+- **Current Role:** QA Engineer at Talview
+- **Core Focus:** Manual Testing · API Testing · GraphQL / Hasura · E2E Testing · Regression · Defect Management
+- **Automation Exploration:** Playwright, Puppeteer, Selenium, JavaScript
 
 ---
 
 ## 🚀 Built With
 
-- ⚛️ React.js  
-- 🎨 CSS3  
-- 💻 VS Code  
-- 🌐 Vercel  
+- ⚛️ React.js (v17)
+- 🎨 Bootstrap 5 & React-Bootstrap
+- 💅 Custom CSS3 & Responsive Grid
+- ⚡ Typewriter Effect & Tilt Effects
+- 🌐 Vercel
 
 ---
 
-## 📌 Features
-
-- 📖 **Single Page Application**
-- 🎨 **Clean UI** with customizable colors
-- 📱 **Responsive Design** for all devices
-
----
-
-## 🛠 Getting Started
-
-To run this locally, you’ll need **Node.js** and **Git** installed on your machine.
-
-### Installation:
+## 🛠 Getting Started Locally
 
 ```bash
-npm install
+# Clone the repository
+git clone https://github.com/Muthukrishnan-R/Portfolio-master.git
 
-☕ Inspired By
-This project is inspired by Soumyajit4419's awesome portfolio.
-Special thanks for the open-source support!
+# Install dependencies
+npm install --legacy-peer-deps
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+---
+
+## ☕ Attribution
+Originally inspired by Soumyajit Behera's portfolio template, customized and revamped to showcase QA engineering, GraphQL API investigations, domain workflow testing, and test automation.
