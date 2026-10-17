@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💜 Muthu Krishnan | QA Engineer Portfolio
+# Muthu Krishnan | QA Engineer Portfolio
 
 ### *I test beyond the happy path — validating workflows, investigating API behavior, and turning unexpected results into actionable insights.*
 
@@ -224,8 +224,6 @@ npm run build
 
 *Designed & Maintained by **Muthu Krishnan R** · © 2026*
 
-<<<<<<< HEAD
 </div>
 =======
 </div>
->>>>>>> 60a11e3 (Fix mobile text overlap, add responsive styles, and flatten project structure to repo root)
