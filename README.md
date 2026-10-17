@@ -1,6 +1,6 @@
 <div align="center">
 
-# Muthu Krishnan | Portfolio
+# 💜 Muthu Krishnan | QA Engineer Portfolio
 
 ### *I test beyond the happy path — validating workflows, investigating API behavior, and turning unexpected results into actionable insights.*
 
@@ -154,7 +154,7 @@ flowchart LR
 ## 📂 Project Architecture
 
 ```plaintext
-Portfolio-master/
+my-portfolio/
 ├── public/
 │   ├── favicon.png
 │   └── index.html               # SEO metadata & OpenGraph tags
@@ -172,6 +172,8 @@ Portfolio-master/
 │   │   └── Footer.js
 │   ├── App.js                   # Client-side routing with React Router
 │   └── style.css                # Custom dark theme with neon purple accents
+├── Images/                      # Readme previews and media
+├── LICENSE
 ├── package.json
 └── README.md
 ```
@@ -191,7 +193,7 @@ Portfolio-master/
 git clone https://github.com/Muthukrishnan-R/my-portfolio.git
 
 # 2. Navigate to project root
-cd Portfolio-master
+cd my-portfolio
 
 # 3. Install dependencies
 npm install --legacy-peer-deps
@@ -222,4 +224,8 @@ npm run build
 
 *Designed & Maintained by **Muthu Krishnan R** · © 2026*
 
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 60a11e3 (Fix mobile text overlap, add responsive styles, and flatten project structure to repo root)

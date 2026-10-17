@@ -284,24 +284,120 @@ button:focus {
   color: #cd5ff8;
 }
 
+.hero-intro-box {
+  padding: 25px 50px 20px 50px;
+  text-align: left;
+}
+
+.typewriter-box {
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.typewriter-box .Typewriter {
+  width: 100%;
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
+  line-height: 1.3 !important;
+  word-break: break-word;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
 }
 
-@media (max-width: 767px) {
+.home-hero-img {
+  max-height: 450px;
+  width: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-content {
+    padding: 7rem 0 2rem !important;
+  }
+  .heading {
+    font-size: 2.1em !important;
+    padding-left: 20px !important;
+  }
+  .heading-name {
+    font-size: 2.2em !important;
+    padding-left: 20px !important;
+  }
+  .hero-intro-box {
+    padding: 20px 20px 15px 20px !important;
+  }
+  .typewriter-box {
+    min-height: 65px;
+  }
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
+    font-size: 1.7em !important;
   }
   .Typewriter__cursor {
-    display: none !important;
+    font-size: 1.8em !important;
+  }
+  .home-hero-img {
+    max-height: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    padding-top: 15px !important;
+    padding-bottom: 25px !important;
+  }
+  .home-content {
+    padding: 6rem 12px 1.5rem !important;
+  }
+  .home-header {
+    padding-top: 15px !important;
+    text-align: left !important;
+  }
+  .heading {
+    font-size: 1.8em !important;
+    padding-left: 0 !important;
+    margin-bottom: 6px !important;
+  }
+  .heading-name {
+    font-size: 1.9em !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .hero-intro-box {
+    padding: 15px 0 10px 0 !important;
+    text-align: left !important;
+  }
+  .typewriter-box {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.32em !important;
+    font-weight: 600 !important;
+    line-height: 1.35 !important;
+    position: static !important;
+    display: inline !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.35em !important;
+    color: #b562d6 !important;
+    display: inline-block !important;
+  }
+  .home-hero-img {
+    max-height: 270px;
+    margin-top: 1rem;
+  }
+  .home-img-col {
+    text-align: center;
   }
 }
 
@@ -756,10 +852,15 @@ button:focus {
   color: #f1e4fb;
   line-height: 1.6;
   max-width: 650px;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .hero-badge {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
   background: rgba(199, 112, 240, 0.12);
   border: 1px solid rgba(199, 112, 240, 0.35);
   border-radius: 20px;
@@ -767,11 +868,18 @@ button:focus {
   font-size: 0.95rem;
   color: #c770f0;
   backdrop-filter: blur(8px);
+  line-height: 1.5;
 }
 
 .hero-badge span {
   color: #ffffff;
   font-weight: 500;
+}
+
+.hero-badge .badge-divider {
+  color: #c770f0;
+  opacity: 0.7;
+  font-weight: 400;
 }
 
 /* Current Role Card */
@@ -1356,4 +1464,448 @@ button:focus {
   border-radius: 8px;
   padding: 10px 12px;
   border-left: 2px solid #be50f4;
+}
+
+/* ========================================= */
+/* COMPREHENSIVE RESPONSIVE DESIGN           */
+/* Mobile, Tablet, and Desktop Support       */
+/* ========================================= */
+
+/* Tablet (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .current-role-card {
+    padding: 1.8rem;
+  }
+  .role-title {
+    font-size: 1.7rem;
+  }
+  .case-study-title {
+    font-size: 1.75rem;
+  }
+  .workflow-step-box {
+    padding: 16px 10px;
+  }
+  .step-title {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+  /* Global / General Mobile Adjustments */
+  .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Hero Section */
+  .hero-tagline {
+    font-size: 0.98rem !important;
+    line-height: 1.55 !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.9rem !important;
+  }
+
+  .hero-badge {
+    font-size: 0.82rem !important;
+    padding: 8px 12px !important;
+    border-radius: 12px !important;
+    gap: 4px 6px !important;
+    line-height: 1.4 !important;
+  }
+
+  .hero-badge .badge-divider {
+    font-size: 0.8em;
+  }
+
+  /* Current Role Card */
+  .current-role-card {
+    padding: 1.25rem 1rem !important;
+    border-radius: 14px !important;
+  }
+
+  .role-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .badge-role {
+    font-size: 0.75rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .role-title {
+    font-size: 1.45rem !important;
+  }
+
+  .role-subtitle {
+    font-size: 0.92rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .role-description {
+    font-size: 0.92rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1.1rem !important;
+  }
+
+  .role-action {
+    width: 100% !important;
+    margin-top: 0.85rem !important;
+  }
+
+  .btn-outline-purple {
+    width: 100% !important;
+    justify-content: center !important;
+    font-size: 0.92rem !important;
+  }
+
+  .role-badges {
+    gap: 6px !important;
+  }
+
+  .skill-pill {
+    font-size: 0.8rem !important;
+    padding: 4px 10px !important;
+    border-radius: 14px !important;
+  }
+
+  /* About & Introduction in Home2 */
+  .home-about-section {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .home-about-description {
+    padding-top: 25px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .home-about-description h1 {
+    font-size: 1.85em !important;
+  }
+
+  .home-about-body {
+    padding-top: 15px !important;
+    font-size: 0.98rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .myAvtar {
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+  }
+
+  .myAvtar img {
+    max-width: 220px !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Domains Section */
+  .domain-card {
+    border-radius: 14px !important;
+  }
+
+  .domain-card-img-wrapper {
+    height: 160px !important;
+  }
+
+  .domain-card-title {
+    font-size: 1.2rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .domain-card-text {
+    font-size: 0.9rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .domain-tag {
+    font-size: 0.78rem !important;
+    padding: 3px 8px !important;
+  }
+
+  /* Philosophy Box */
+  .philosophy-box {
+    padding: 18px 16px !important;
+    border-radius: 8px !important;
+  }
+
+  .philosophy-title {
+    font-size: 1.2rem !important;
+  }
+
+  .philosophy-text {
+    font-size: 0.92rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* About Page Responsiveness */
+  .about-section {
+    padding-top: 100px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .about-img {
+    padding-top: 0 !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+  }
+
+  .about-img img {
+    max-height: 240px;
+  }
+
+  .responsibility-card {
+    padding: 1rem !important;
+    border-radius: 14px !important;
+  }
+
+  .resp-num {
+    font-size: 1.5rem !important;
+  }
+
+  .resp-icon-wrap {
+    font-size: 1.4rem !important;
+  }
+
+  .resp-title {
+    font-size: 1.15rem !important;
+  }
+
+  .resp-desc {
+    font-size: 0.88rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .resp-examples {
+    padding: 8px 10px !important;
+  }
+
+  .qa-workflow-container {
+    padding: 18px 12px !important;
+    border-radius: 14px !important;
+  }
+
+  .qa-workflow-title {
+    font-size: 1.15rem !important;
+  }
+
+  .workflow-step-box {
+    padding: 14px 10px !important;
+    border-radius: 10px !important;
+  }
+
+  .step-circle {
+    width: 34px !important;
+    height: 34px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .step-title {
+    font-size: 0.95rem !important;
+  }
+
+  .step-desc {
+    font-size: 0.82rem !important;
+  }
+
+  .data-technique-pill {
+    padding: 12px 14px !important;
+    border-radius: 10px !important;
+  }
+
+  .technique-title {
+    font-size: 0.95rem !important;
+  }
+
+  .technique-desc {
+    font-size: 0.82rem !important;
+  }
+
+  /* Techstack & Toolstack */
+  .tech-icons {
+    font-size: 2.8em !important;
+    margin: 8px 5px !important;
+    padding: 8px 4px !important;
+  }
+
+  .tech-icon-label {
+    font-size: 0.72rem !important;
+    margin-top: 4px !important;
+  }
+
+  .skill-category-card {
+    padding: 12px 10px !important;
+    border-radius: 12px !important;
+  }
+
+  .skill-cat-title {
+    font-size: 1.05rem !important;
+  }
+
+  .skill-cat-desc {
+    font-size: 0.8rem !important;
+  }
+
+  .skill-tag-pill {
+    font-size: 0.8rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .tool-category-card {
+    border-radius: 12px !important;
+  }
+
+  .tool-card-hdr {
+    padding: 10px 14px !important;
+    font-size: 0.95rem !important;
+  }
+
+  /* Projects & Case Study */
+  .project-section {
+    padding-top: 100px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .project-heading {
+    font-size: 1.85em !important;
+  }
+
+  .case-study-featured-card {
+    border-radius: 14px !important;
+  }
+
+  .case-study-featured-card .card-body {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .case-study-title {
+    font-size: 1.35rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .case-study-badge {
+    font-size: 0.75rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .problem-alert-box {
+    padding: 12px 14px !important;
+    border-radius: 10px !important;
+  }
+
+  .problem-text {
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .demonstrates-pill {
+    font-size: 0.8rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .code-viewer-container {
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+
+  .code-box {
+    font-size: 0.76rem !important;
+    max-height: 280px !important;
+    overflow-x: auto !important;
+    padding: 10px !important;
+  }
+
+  .viewer-tabs {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px;
+  }
+
+  .tab-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .tab-buttons .btn {
+    font-size: 0.78rem !important;
+    padding: 4px 8px !important;
+    margin-right: 0 !important;
+  }
+
+  .project-card {
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .project-card-view {
+    border-radius: 14px !important;
+  }
+
+  .project-img-container {
+    height: 170px !important;
+  }
+
+  .project-card-title {
+    font-size: 1.2rem !important;
+  }
+
+  .project-card-desc {
+    font-size: 0.88rem !important;
+    line-height: 1.55 !important;
+    text-align: left !important;
+  }
+
+  .project-tag-pill {
+    font-size: 0.75rem !important;
+    padding: 2px 7px !important;
+  }
+
+  .project-highlights {
+    padding: 8px 10px !important;
+  }
+
+  /* Resume Page */
+  .resume-section {
+    padding-top: 95px !important;
+  }
+}
+
+/* Extra Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.65em !important;
+  }
+
+  .heading-name {
+    font-size: 1.75em !important;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 1.22em !important;
+  }
+
+  .typewriter-box {
+    min-height: 54px;
+  }
+
+  .tech-icons {
+    font-size: 2.2em !important;
+    margin: 5px 3px !important;
+    padding: 6px 2px !important;
+  }
+
+  .case-study-title {
+    font-size: 1.2rem !important;
+  }
+
+  .hero-badge {
+    font-size: 0.78rem !important;
+    padding: 6px 10px !important;
+  }
 }

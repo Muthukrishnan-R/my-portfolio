@@ -25,23 +25,32 @@ function Home() {
                 <strong className="main-name"> Muthu Krishnan</strong>
               </h1>
 
-              <div style={{ padding: "30px 50px 20px 50px", textAlign: "left" }}>
-                <Type />
-                <p className="hero-tagline mt-3">
+              <div className="hero-intro-box">
+                <div className="typewriter-box">
+                  <Type />
+                </div>
+                <p className="hero-tagline">
                   I test beyond the happy path—validating workflows, investigating API behavior, and turning unexpected results into actionable insights.
                 </p>
-                <div className="hero-badge mt-2">
-                  <span>QA Engineer</span> • <span>Manual & API Testing</span> • <span>GraphQL & Hasura</span> • <span>E2E QA</span> • <span>Test Automation</span>
+                <div className="hero-badge">
+                  <span>QA Engineer</span>
+                  <span className="badge-divider">•</span>
+                  <span>Manual & API Testing</span>
+                  <span className="badge-divider">•</span>
+                  <span>GraphQL & Hasura</span>
+                  <span className="badge-divider">•</span>
+                  <span>E2E QA</span>
+                  <span className="badge-divider">•</span>
+                  <span>Test Automation</span>
                 </div>
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="home-img-col" style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid home-hero-img"
               />
             </Col>
           </Row>

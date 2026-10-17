@@ -14,8 +14,20 @@ function ResumeNew() {
   const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
     setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const getPdfScale = () => {
+    if (width > 1200) return 1.7;
+    if (width > 992) return 1.4;
+    if (width > 768) return 1.1;
+    if (width > 576) return 0.85;
+    if (width > 400) return 0.6;
+    return 0.48;
+  };
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
@@ -121,7 +133,7 @@ function ResumeNew() {
               <div key={`page_${index + 1}`} className="mb-4 shadow">
                 <Page
                   pageNumber={index + 1}
-                  scale={width > 786 ? 1.7 : 0.6}
+                  scale={getPdfScale()}
                 />
               </div>
             ))}
