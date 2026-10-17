@@ -224,6 +224,3 @@ npm run build
 
 *Designed & Maintained by **Muthu Krishnan R** · © 2026*
 
-</div>
-=======
-</div>
